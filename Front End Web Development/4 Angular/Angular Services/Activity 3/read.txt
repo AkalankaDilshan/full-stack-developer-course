@@ -1,0 +1,5 @@
+Activity 3
+
+Implement a service method to get all the products in which the unit price is greater than Rs. 200/=. Log them in the console. Use the following as the endpoint URL.
+
+'https://host1.open.uom.lk/api/products/{quantity}/'

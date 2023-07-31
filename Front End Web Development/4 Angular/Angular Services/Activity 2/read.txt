@@ -1,0 +1,5 @@
+Activity 2
+
+Implement a service method to get all the products having a quantity greater than 150 and log them in the console. Use the following as the endpoint URL.
+
+'https://host1.open.uom.lk/api/products/unitPrice/{unitPrice}/'

@@ -1,0 +1,3 @@
+Activity 3
+
+Determine why clicking on a button in products page is not navigating to a component called Second. Fix the issue you have identified.

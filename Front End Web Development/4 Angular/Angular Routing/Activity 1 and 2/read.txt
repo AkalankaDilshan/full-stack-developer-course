@@ -1,0 +1,3 @@
+Activity 1
+
+Create a component called First component. Create a button in the Header bar. Navigate to the First component through the routerLink. 
