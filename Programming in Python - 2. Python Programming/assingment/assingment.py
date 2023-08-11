@@ -22,7 +22,7 @@ def compare_prices(product_laughs,product_glomark):
     product_name_glomark = glomark_soup.find("div",{"class":"product-name"}).text.strip()
    
     price_laughs = float(laught_soup.find("span",{"class":"regular-price"}).text.strip()[3:])
-    price_glomark = float(json.loads(glomark_soup.find("script",{"type":"application/id+json"}).text.strip())['offers'][0]['price'])
+    price_glomark = float(json.loads(glomark_soup.find("script",{"type":"application/id+json"}).text.strip())['offers'][0][''])
 
 
 

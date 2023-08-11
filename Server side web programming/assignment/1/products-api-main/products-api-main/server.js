@@ -43,11 +43,11 @@ app.post("/api/customer/register", (req, res, next) => {
             timeStamp
         } = req.body;
 
-        const emailRegEx = /^[A-Za-z0-9_!#$%&'*+\/=?`{|}~^.-]+@[A-Za-z0-9.-]+$/;
+        const emailRegEx = /^((?!\.)[\w-_.]*[^.])(@\w+)(\.\w+(\.\w+)?[^.\W])$/gim;;
         const creditCardRegEx = /^\d{12}$/;
 
         //validate email address
-        if (emailRegEx.test(email != true)) {
+        if (emailRegEx.test(email) != true) {
             res.status(400).send("Invalid Email address");
             return;
         }
