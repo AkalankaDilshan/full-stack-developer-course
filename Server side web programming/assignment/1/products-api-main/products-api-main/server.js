@@ -52,7 +52,7 @@ app.post("/api/customer/register", (req, res, next) => {
             return;
         }
 
-        //validate credit card number
+        //validate credit card number for 12 numbers only
         if (creditCardRegEx.test(cardNumber) != true) {
             res.status(400).send("Invalid credit card number");
             return;
